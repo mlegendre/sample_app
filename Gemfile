@@ -7,11 +7,15 @@ gem 'rails', '4.0.0'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
+  gem 'guard-rspec', '2.5.0'
+  gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '1.5.0'
+  gem 'childprocess', '0.3.6'
 end
 
 # Use SCSS for stylesheets
 group :test do
-  gem 'selenium-webdriver','2.0.0'
+  gem 'selenium-webdriver', '~> 2.35.1'
   gem 'capybara', '2.1.0'
 end
 
